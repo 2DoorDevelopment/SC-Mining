@@ -1,0 +1,30 @@
+// Common SC ores — names only. Base yield/cost/time come from UEX when available.
+export const SC_ORES = [
+  'Quantanium',
+  'Bexalite',
+  'Taranite',
+  'Laramite',
+  'Hephaestanite',
+  'Janalite',
+  'Agricium',
+  'Gold',
+  'Diamond',
+  'Corundum',
+  'Titanium',
+  'Tungsten',
+  'Silicon',
+  'Aluminum',
+  'Copper',
+  'Iron',
+  'Borase',
+  'Stileron',
+  'Inertite',
+  'Dolivine',
+  'Praseodymium',
+  'Ostamine',
+  'Altrucite',
+  'Carentite',
+  'Revenant',
+] as const
+
+export type OreType = (typeof SC_ORES)[number] | string
